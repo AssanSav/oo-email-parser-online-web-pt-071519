@@ -11,7 +11,7 @@ class EmailAddressParser
   end
   
    def parse
-    @emails_file.split(%r{,\s*}) 
+    @emails_file.split(%w{,\s*}) 
     binding.pry
    end
 end
