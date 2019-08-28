@@ -4,6 +4,7 @@
 # or whitespace (' ').
 
 class EmailAddressParser
+  attr_accessor :emails_file
   
   def parse(emails_file)
     
