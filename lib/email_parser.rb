@@ -12,6 +12,6 @@ class EmailAddressParser
   
    def parse
     @emails_file.split(",").collect {|e| e.join(" ")}
-    #binding.pry
+    binding.pry
    end
 end
